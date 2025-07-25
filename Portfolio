@@ -1,5 +1,90 @@
-git init
-git remote add origin https://github.com/yourusername/portfolio.git
-git add .
-git commit -m "Initial commit"
-git push -u origin main
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jones Damilare Joseph - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Jones Damilare Joseph</h1>
+    <p>Developer | Designer | Reply Guy | Content Creator</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a computer science student who specializes in coding and graphic design. 
+      I’m also a builder, a reply guy on Twitter, and a content creator. 
+      I enjoy working on creative and technical projects that connect communities.
+    </p>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>Building a Portfolio</strong> — A personal project to showcase who I am, what I do, and how I contribute across different spaces.
+      </li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:jonesdamilare2@gmail.com">jonesdamilare2@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Drajone-3/jones" target="_blank">Drajone-3/jones</a></p>
+    <p>Twitter: <a href="https://twitter.com/jon_es2" target="_blank">@jon_es2</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Jones Damilare Joseph. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+h2 {
+  color: #444;
+  margin-top: 0;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: #fff;
+  margin-top: 30px;
+}
